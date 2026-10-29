@@ -1,0 +1,131 @@
+timestamp,service,alert_name,severity,message,incident_id
+2026-10-28 09:00:00,postgres-primary,Database connections saturated,critical,Database connection pool near maximum,INC-001
+2026-10-28 09:00:00,auth-api,Pod restarted,medium,Background monitoring alert,
+2026-10-28 09:01:00,billing-api,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 09:02:00,postgres-primary,Database connections saturated,critical,Database connection pool near maximum,INC-001
+2026-10-28 09:04:00,postgres-primary,Database connections saturated,critical,Database connection pool near maximum,INC-001
+2026-10-28 09:06:00,postgres-primary,Database connections saturated,critical,Database connection pool near maximum,INC-001
+2026-10-28 09:07:00,catalog-api,CPU usage elevated,low,Background monitoring alert,
+2026-10-28 09:08:00,checkout-api,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 09:08:00,auth-api,Disk usage warning,high,Background monitoring alert,
+2026-10-28 09:08:00,orders-api,Memory utilization warning,medium,Background monitoring alert,
+2026-10-28 09:08:00,catalog-api,Pod restarted,low,Background monitoring alert,
+2026-10-28 09:08:00,postgres-primary,Database connections saturated,critical,Database connection pool near maximum,INC-001
+2026-10-28 09:09:00,orders-api,Memory utilization warning,low,Background monitoring alert,
+2026-10-28 09:10:00,email-worker,Pod restarted,high,Background monitoring alert,
+2026-10-28 09:10:00,catalog-api,CPU usage elevated,medium,Background monitoring alert,
+2026-10-28 09:10:00,postgres-primary,Database connections saturated,critical,Database connection pool near maximum,INC-001
+2026-10-28 09:10:00,auth-api,Pod restarted,medium,Background monitoring alert,
+2026-10-28 09:11:00,auth-api,CPU usage elevated,medium,Background monitoring alert,
+2026-10-28 09:12:00,orders-api,CPU usage elevated,low,Background monitoring alert,
+2026-10-28 09:12:00,auth-api,Pod restarted,medium,Background monitoring alert,
+2026-10-28 09:12:00,postgres-primary,Database connections saturated,critical,Database connection pool near maximum,INC-001
+2026-10-28 09:13:00,inventory-api,Pod restarted,low,Background monitoring alert,
+2026-10-28 09:14:00,postgres-primary,Database connections saturated,critical,Database connection pool near maximum,INC-001
+2026-10-28 09:15:00,catalog-api,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 09:16:00,postgres-primary,Database connections saturated,critical,Database connection pool near maximum,INC-001
+2026-10-28 09:18:00,postgres-primary,Database connections saturated,critical,Database connection pool near maximum,INC-001
+2026-10-28 09:19:00,catalog-api,Pod restarted,low,Background monitoring alert,
+2026-10-28 09:20:00,search-api,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 09:24:00,catalog-api,Disk usage warning,low,Background monitoring alert,
+2026-10-28 09:24:00,session-api,Memory utilization warning,low,Background monitoring alert,
+2026-10-28 09:25:00,email-worker,Disk usage warning,low,Background monitoring alert,
+2026-10-28 09:26:00,checkout-api,Memory utilization warning,medium,Background monitoring alert,
+2026-10-28 09:27:00,catalog-api,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 09:27:00,email-worker,Pod restarted,low,Background monitoring alert,
+2026-10-28 09:28:00,inventory-api,Disk usage warning,low,Background monitoring alert,
+2026-10-28 09:30:00,redis-cache,Cache hit ratio collapsed,high,Cache performance below expected level,INC-002
+2026-10-28 09:31:00,email-worker,Pod restarted,high,Background monitoring alert,
+2026-10-28 09:31:00,billing-api,Disk usage warning,high,Background monitoring alert,
+2026-10-28 09:32:00,redis-cache,Cache hit ratio collapsed,high,Cache performance below expected level,INC-002
+2026-10-28 09:34:00,redis-cache,Cache hit ratio collapsed,high,Cache performance below expected level,INC-002
+2026-10-28 09:34:00,billing-api,Memory utilization warning,high,Background monitoring alert,
+2026-10-28 09:35:00,catalog-api,Memory utilization warning,low,Background monitoring alert,
+2026-10-28 09:35:00,search-api,Pod restarted,low,Background monitoring alert,
+2026-10-28 09:36:00,catalog-api,Pod restarted,low,Background monitoring alert,
+2026-10-28 09:36:00,redis-cache,Cache hit ratio collapsed,high,Cache performance below expected level,INC-002
+2026-10-28 09:36:00,auth-api,Disk usage warning,low,Background monitoring alert,
+2026-10-28 09:38:00,redis-cache,Cache hit ratio collapsed,high,Cache performance below expected level,INC-002
+2026-10-28 09:40:00,redis-cache,Cache hit ratio collapsed,high,Cache performance below expected level,INC-002
+2026-10-28 09:40:00,billing-api,CPU usage elevated,medium,Background monitoring alert,
+2026-10-28 09:40:00,orders-api,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 09:41:00,orders-api,Memory utilization warning,low,Background monitoring alert,
+2026-10-28 09:41:00,search-api,CPU usage elevated,low,Background monitoring alert,
+2026-10-28 09:42:00,inventory-api,Pod restarted,low,Background monitoring alert,
+2026-10-28 09:42:00,redis-cache,Cache hit ratio collapsed,high,Cache performance below expected level,INC-002
+2026-10-28 09:43:00,billing-api,Pod restarted,medium,Background monitoring alert,
+2026-10-28 09:44:00,redis-cache,Cache hit ratio collapsed,high,Cache performance below expected level,INC-002
+2026-10-28 09:46:00,redis-cache,Cache hit ratio collapsed,high,Cache performance below expected level,INC-002
+2026-10-28 09:47:00,session-api,Memory utilization warning,medium,Background monitoring alert,
+2026-10-28 09:47:00,checkout-api,Memory utilization warning,high,Background monitoring alert,
+2026-10-28 09:48:00,session-api,Memory utilization warning,high,Background monitoring alert,
+2026-10-28 09:48:00,redis-cache,Cache hit ratio collapsed,high,Cache performance below expected level,INC-002
+2026-10-28 09:50:00,inventory-api,Pod restarted,medium,Background monitoring alert,
+2026-10-28 09:52:00,search-api,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 09:54:00,session-api,CPU usage elevated,low,Background monitoring alert,
+2026-10-28 09:54:00,inventory-api,Pod restarted,medium,Background monitoring alert,
+2026-10-28 09:54:00,orders-api,CPU usage elevated,low,Background monitoring alert,
+2026-10-28 09:57:00,billing-api,Memory utilization warning,low,Background monitoring alert,
+2026-10-28 09:57:00,session-api,CPU usage elevated,low,Background monitoring alert,
+2026-10-28 09:58:00,inventory-api,Pod restarted,low,Background monitoring alert,
+2026-10-28 09:59:00,email-worker,Pod restarted,high,Background monitoring alert,
+2026-10-28 10:00:00,payment-gateway,Payment provider rate limit,critical,HTTP 429 responses received,INC-003
+2026-10-28 10:00:00,email-worker,Memory utilization warning,medium,Background monitoring alert,
+2026-10-28 10:01:00,email-worker,Memory utilization warning,low,Background monitoring alert,
+2026-10-28 10:02:00,search-api,Memory utilization warning,medium,Background monitoring alert,
+2026-10-28 10:02:00,catalog-api,Memory utilization warning,high,Background monitoring alert,
+2026-10-28 10:02:00,payment-gateway,Payment provider rate limit,critical,HTTP 429 responses received,INC-003
+2026-10-28 10:04:00,catalog-api,Memory utilization warning,medium,Background monitoring alert,
+2026-10-28 10:04:00,payment-gateway,Payment provider rate limit,critical,HTTP 429 responses received,INC-003
+2026-10-28 10:05:00,catalog-api,Pod restarted,high,Background monitoring alert,
+2026-10-28 10:05:00,billing-api,Memory utilization warning,low,Background monitoring alert,
+2026-10-28 10:06:00,payment-gateway,Payment provider rate limit,critical,HTTP 429 responses received,INC-003
+2026-10-28 10:07:00,auth-api,Memory utilization warning,high,Background monitoring alert,
+2026-10-28 10:08:00,payment-gateway,Payment provider rate limit,critical,HTTP 429 responses received,INC-003
+2026-10-28 10:10:00,payment-gateway,Payment provider rate limit,critical,HTTP 429 responses received,INC-003
+2026-10-28 10:10:00,catalog-api,Memory utilization warning,low,Background monitoring alert,
+2026-10-28 10:12:00,payment-gateway,Payment provider rate limit,critical,HTTP 429 responses received,INC-003
+2026-10-28 10:14:00,email-worker,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 10:14:00,payment-gateway,Payment provider rate limit,critical,HTTP 429 responses received,INC-003
+2026-10-28 10:14:00,auth-api,Disk usage warning,medium,Background monitoring alert,
+2026-10-28 10:16:00,billing-api,Memory utilization warning,medium,Background monitoring alert,
+2026-10-28 10:16:00,payment-gateway,Payment provider rate limit,critical,HTTP 429 responses received,INC-003
+2026-10-28 10:18:00,payment-gateway,Payment provider rate limit,critical,HTTP 429 responses received,INC-003
+2026-10-28 10:19:00,billing-api,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 10:19:00,checkout-api,Memory utilization warning,high,Background monitoring alert,
+2026-10-28 10:20:00,inventory-api,Disk usage warning,high,Background monitoring alert,
+2026-10-28 10:21:00,billing-api,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 10:23:00,billing-api,CPU usage elevated,medium,Background monitoring alert,
+2026-10-28 10:23:00,search-api,Disk usage warning,high,Background monitoring alert,
+2026-10-28 10:25:00,checkout-api,Disk usage warning,high,Background monitoring alert,
+2026-10-28 10:27:00,session-api,Disk usage warning,medium,Background monitoring alert,
+2026-10-28 10:29:00,auth-api,Pod restarted,medium,Background monitoring alert,
+2026-10-28 10:33:00,catalog-api,Memory utilization warning,medium,Background monitoring alert,
+2026-10-28 10:33:00,search-api,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 10:33:00,search-api,CPU usage elevated,medium,Background monitoring alert,
+2026-10-28 10:33:00,checkout-api,CPU usage elevated,low,Background monitoring alert,
+2026-10-28 10:34:00,billing-api,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 10:34:00,search-api,Disk usage warning,high,Background monitoring alert,
+2026-10-28 10:36:00,orders-api,CPU usage elevated,low,Background monitoring alert,
+2026-10-28 10:36:00,catalog-api,Pod restarted,medium,Background monitoring alert,
+2026-10-28 10:37:00,inventory-api,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 10:38:00,inventory-api,Memory utilization warning,high,Background monitoring alert,
+2026-10-28 10:43:00,auth-api,Memory utilization warning,low,Background monitoring alert,
+2026-10-28 10:43:00,email-worker,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 10:43:00,checkout-api,Disk usage warning,medium,Background monitoring alert,
+2026-10-28 10:44:00,email-worker,Pod restarted,high,Background monitoring alert,
+2026-10-28 10:46:00,email-worker,Pod restarted,high,Background monitoring alert,
+2026-10-28 10:48:00,checkout-api,Pod restarted,low,Background monitoring alert,
+2026-10-28 10:50:00,orders-api,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 10:52:00,session-api,Memory utilization warning,high,Background monitoring alert,
+2026-10-28 10:53:00,billing-api,Memory utilization warning,medium,Background monitoring alert,
+2026-10-28 10:53:00,email-worker,Pod restarted,high,Background monitoring alert,
+2026-10-28 10:55:00,orders-api,Memory utilization warning,medium,Background monitoring alert,
+2026-10-28 10:55:00,orders-api,CPU usage elevated,high,Background monitoring alert,
+2026-10-28 10:55:00,orders-api,Pod restarted,low,Background monitoring alert,
+2026-10-28 10:55:00,inventory-api,CPU usage elevated,medium,Background monitoring alert,
+2026-10-28 10:56:00,billing-api,Pod restarted,high,Background monitoring alert,
+2026-10-28 10:58:00,catalog-api,Memory utilization warning,medium,Background monitoring alert,
+2026-10-28 10:58:00,checkout-api,Pod restarted,low,Background monitoring alert,
+2026-10-28 10:59:00,search-api,Memory utilization warning,medium,Background monitoring alert,
+2026-10-28 10:59:00,checkout-api,CPU usage elevated,low,Background monitoring alert,

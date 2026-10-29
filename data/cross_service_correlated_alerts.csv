@@ -1,0 +1,22 @@
+timestamp,service,alert_name,severity,message,incident_id,correlation_group,correlation_reason
+2026-10-28 09:00:00,postgres-primary,Database connections saturated,critical,Synthetic database slowdown scenario,INC-001,CS-001,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 09:02:00,orders-api,Request latency high,high,Synthetic database slowdown scenario,INC-001,CS-001,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 09:03:00,billing-api,Database query timeout,critical,Synthetic database slowdown scenario,INC-001,CS-001,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 09:04:00,inventory-api,Database query latency high,high,Synthetic database slowdown scenario,INC-001,CS-001,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 09:06:00,orders-api,Request latency high,high,Synthetic database slowdown scenario,INC-001,CS-001,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 09:08:00,postgres-primary,Database connections saturated,critical,Synthetic database slowdown scenario,INC-001,CS-001,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 09:30:00,redis-cache,Cache hit ratio collapsed,high,Synthetic cache degradation scenario,INC-002,CS-002,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 09:32:00,session-api,Session lookup latency high,high,Synthetic cache degradation scenario,INC-002,CS-002,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 09:34:00,auth-api,Authentication latency high,high,Synthetic cache degradation scenario,INC-002,CS-002,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 09:36:00,checkout-api,Cache request timeout,critical,Synthetic cache degradation scenario,INC-002,CS-002,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 09:38:00,redis-cache,Cache hit ratio collapsed,high,Synthetic cache degradation scenario,INC-002,CS-002,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 10:00:00,payment-gateway,Payment provider rate limit,critical,Synthetic payment provider incident,INC-003,CS-003,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 10:02:00,billing-api,Payment request failed,critical,Synthetic payment provider incident,INC-003,CS-003,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 10:04:00,checkout-api,Checkout payment timeout,critical,Synthetic payment provider incident,INC-003,CS-003,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 10:06:00,payment-gateway,Payment provider rate limit,critical,Synthetic payment provider incident,INC-003,CS-003,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 10:08:00,orders-api,Payment confirmation delayed,high,Synthetic payment provider incident,INC-003,CS-003,Alerts occurred within the time window and include services linked by the configured dependency map.
+2026-10-28 11:00:00,search-api,CPU usage high,medium,Synthetic background alert,,CS-004,Single alert; insufficient correlation evidence.
+2026-10-28 11:03:00,email-worker,Memory usage high,medium,Synthetic background alert,,CS-005,Single alert; insufficient correlation evidence.
+2026-10-28 11:06:00,catalog-api,Pod restarted,low,Synthetic background alert,,CS-006,Single alert; insufficient correlation evidence.
+2026-10-28 11:09:00,inventory-api,Disk usage high,medium,Synthetic background alert,,CS-007,Single alert; insufficient correlation evidence.
+2026-10-28 11:12:00,auth-api,CPU usage high,medium,Synthetic background alert,,CS-008,Single alert; insufficient correlation evidence.

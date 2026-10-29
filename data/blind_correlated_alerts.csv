@@ -1,0 +1,22 @@
+timestamp,service,alert_name,severity,message,incident_id,correlation_group
+2026-10-28 09:00:00,postgres-primary,Database connections saturated,critical,Synthetic database slowdown scenario,INC-001,BLIND-001
+2026-10-28 09:02:00,orders-api,Request latency high,high,Synthetic database slowdown scenario,INC-001,BLIND-002
+2026-10-28 09:03:00,billing-api,Database query timeout,critical,Synthetic database slowdown scenario,INC-001,BLIND-003
+2026-10-28 09:04:00,inventory-api,Database query latency high,high,Synthetic database slowdown scenario,INC-001,BLIND-004
+2026-10-28 09:06:00,orders-api,Request latency high,high,Synthetic database slowdown scenario,INC-001,BLIND-002
+2026-10-28 09:08:00,postgres-primary,Database connections saturated,critical,Synthetic database slowdown scenario,INC-001,BLIND-001
+2026-10-28 09:30:00,redis-cache,Cache hit ratio collapsed,high,Synthetic cache degradation scenario,INC-002,BLIND-005
+2026-10-28 09:32:00,session-api,Session lookup latency high,high,Synthetic cache degradation scenario,INC-002,BLIND-006
+2026-10-28 09:34:00,auth-api,Authentication latency high,high,Synthetic cache degradation scenario,INC-002,BLIND-007
+2026-10-28 09:36:00,checkout-api,Cache request timeout,critical,Synthetic cache degradation scenario,INC-002,BLIND-008
+2026-10-28 09:38:00,redis-cache,Cache hit ratio collapsed,high,Synthetic cache degradation scenario,INC-002,BLIND-005
+2026-10-28 10:00:00,payment-gateway,Payment provider rate limit,critical,Synthetic payment provider incident,INC-003,BLIND-009
+2026-10-28 10:02:00,billing-api,Payment request failed,critical,Synthetic payment provider incident,INC-003,BLIND-010
+2026-10-28 10:04:00,checkout-api,Checkout payment timeout,critical,Synthetic payment provider incident,INC-003,BLIND-011
+2026-10-28 10:06:00,payment-gateway,Payment provider rate limit,critical,Synthetic payment provider incident,INC-003,BLIND-009
+2026-10-28 10:08:00,orders-api,Payment confirmation delayed,high,Synthetic payment provider incident,INC-003,BLIND-012
+2026-10-28 11:00:00,search-api,CPU usage high,medium,Synthetic background alert,,BLIND-013
+2026-10-28 11:03:00,email-worker,Memory usage high,medium,Synthetic background alert,,BLIND-014
+2026-10-28 11:06:00,catalog-api,Pod restarted,low,Synthetic background alert,,BLIND-015
+2026-10-28 11:09:00,inventory-api,Disk usage high,medium,Synthetic background alert,,BLIND-016
+2026-10-28 11:12:00,auth-api,CPU usage high,medium,Synthetic background alert,,BLIND-017
